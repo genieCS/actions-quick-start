@@ -6,4 +6,6 @@ jobs:
   call-reusable1:
     uses: ./.github/workflows/reusable1.yml
   call-reusable2:
-    uses: geniecs/actions-quick-start/.github/workflows/reusable2.yml@main
+#     uses: geniecs/actions-quick-start/.github/workflows/reusable2.yml@main
+    uses: ./.github/workflows/reusable2.yml
+
