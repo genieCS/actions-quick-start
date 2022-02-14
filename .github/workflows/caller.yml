@@ -1,0 +1,11 @@
+name: caller
+on:
+  workflow_dispatch:
+ 
+jobs:
+  call-reusable1:
+    runs-on: ubuntu-latest
+    uses: ./.github/workflows/reusable1.yml
+  call-reusable2:
+    runs-on: ubuntu-latest
+    uses: actions/Called-workflow/.github/workflows/reusable2.yml@main
