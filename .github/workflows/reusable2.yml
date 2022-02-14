@@ -1,0 +1,11 @@
+name: reusable2
+on:
+  workflow_call:
+ 
+jobs:
+  reusable2-job:
+    naem: reusable2
+    runs-on: ubuntu-latest
+    steps:
+      - id: reusable2-step1
+        run: echo "Hello World reusable2"
