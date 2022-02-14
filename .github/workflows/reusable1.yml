@@ -4,7 +4,7 @@ on:
  
 jobs:
   reusable1-job:
-    naem: reusable1
+    name: reusable1
     runs-on: ubuntu-latest
     steps:
       - id: reusable1-step1
